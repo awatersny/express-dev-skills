@@ -23,8 +23,13 @@ function newSkill(req, res) {
   res.render('skills/new');
 }
 
+function create(req, res) {
+  console.log(req.body);
+}
+
 export {
   index,
   show,
-  newSkill as new
+  newSkill as new,
+  create
 }
