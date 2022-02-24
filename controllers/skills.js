@@ -20,7 +20,7 @@ function show(req, res) {
 }
 
 function newSkill() {
-  console.log(1)
+  
 }
 
 export {
