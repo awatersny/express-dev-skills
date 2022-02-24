@@ -13,8 +13,9 @@
   <% } %> 
   <ul>
     <% skills.forEach(skill => { %>
+      <% console.log(skill._id) %> 
       <li>
-        <a href="/skills"><%= skill.text%></a>
+        <a href="/skills/"<%=skill._id%> ><%= skill.text%></a>
         -
         <%= skill.proficient ? 'proficient' : 'needs practice'%>  
       </li>
