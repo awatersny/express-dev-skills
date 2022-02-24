@@ -5,11 +5,11 @@ const router = Router()
 /* GET users listing. */
 router.get('/', function(req, res) {
   skillDb.find({}, function(error, skills) {
-  res.render('skills/index', {
-    skills: skills,
-    error: error
+    res.render('skills/index', {
+      skills: skills,
+      error: error
+    })
   })
-})
 })
 
 export {
