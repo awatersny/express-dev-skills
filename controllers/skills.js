@@ -19,8 +19,8 @@ function show(req, res) {
   });
 }
 
-function newSkill() {
-  
+function newSkill(req, res) {
+  res.render('skills/new');
 }
 
 export {
