@@ -19,6 +19,11 @@ app.set(
 app.set('view engine', 'ejs')
 
 // middleware
+app.use((req, res, next)=>{
+  console.log(1)
+  next();
+});
+
 app.use(logger('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
