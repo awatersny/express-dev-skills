@@ -20,7 +20,7 @@ app.set('view engine', 'ejs')
 
 // middleware
 app.use((req, res, next)=>{
-  console.log(1)
+  req.time = new Date().toLocaleTimeString();
   next();
 });
 
