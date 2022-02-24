@@ -12,11 +12,11 @@
     <h2><%= error%> </h2>
   <% } %> 
   <ul>
-    <% skills.forEach(element => { %>
+    <% skills.forEach(skill => { %>
       <li>
-        <%= skills.text%>
+        <%= skill.text%>
         -
-        <%= skills.proficient ? 'proficient' : 'needs practice'%>  
+        <%= skill.proficient ? 'proficient' : 'needs practice'%>  
       </li>
     <% }); %> 
   </ul>
