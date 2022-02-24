@@ -1,10 +1,10 @@
 const skills = [
-  {text: 'HTML', done: true, _id: 125223},
-  {text: 'CSS', done: true, _id: 127904},
-  {text: 'Vanilla JS', done: true, _id: 139608},
-  {text: 'Node', done: false, _id: 198956},
-  {text: 'Express', done: false, _id: 197492},
-  {text: 'MongoDB', done: false, _id: 194723},
+  {text: 'HTML', proficient: true, _id: 125223},
+  {text: 'CSS', proficient: true, _id: 127904},
+  {text: 'Vanilla JS', proficient: true, _id: 139608},
+  {text: 'Node', proficient: false, _id: 198956},
+  {text: 'Express', proficient: false, _id: 197492},
+  {text: 'MongoDB', proficient: false, _id: 194723},
 ]
 
 const find = (conditions, callback) => {
