@@ -37,7 +37,7 @@ const findById = (id, callback) =>{
 function create(skill, callback) {
   // Add the id
   skill._id = Date.now() % 1000000
-  skill.done = false
+  skill.proficient = false
   skills.push(skill)
   return callback(null, skill)
 }
