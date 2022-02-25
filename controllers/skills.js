@@ -29,9 +29,14 @@ function create(req, res) {
   });
 }
 
+function deleteSkill(req, res) {
+  console.log(req.params.id);
+}
+
 export {
   index,
   show,
   newSkill as new,
-  create
+  create,
+  deleteSkill as delete
 }
