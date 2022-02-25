@@ -10,3 +10,13 @@ a {
 li {
   list-style: none;
 }
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-form button {
+  color: white;
+  background-color: red;
+  border-radius: 20%;
+}
