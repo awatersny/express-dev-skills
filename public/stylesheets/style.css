@@ -20,3 +20,7 @@ li {
   background-color: red;
   border-radius: 20%;
 }
+
+#menu {
+  display: block;
+}
